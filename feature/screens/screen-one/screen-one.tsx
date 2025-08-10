@@ -2,8 +2,8 @@ import { useNavigate } from "@tanstack/react-router"
 import { useSharedContext } from "../../context"
 
 export function ScreenOne() {
-  const navigate = useNavigate()
   const { count, setCount, basePath } = useSharedContext()
+  const navigate = useNavigate()
 
   return (
     <>

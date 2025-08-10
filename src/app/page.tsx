@@ -17,7 +17,7 @@ export default function Home() {
         <div className={styles.ctas}>
           <Link
             className={styles.primary}
-            href="/tsr-test"
+            href="/tsr-test/screen-one"
           >
             Test external feature
           </Link>
